@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(81, 189, 252);
+}
+
+.titulo {
+    font: normal 30pt Arial;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.bloco1 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%); 
+
+    text-align:center;
+
+    background-color: white;
+    width: 700px;
+    height: 400px;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582); 
+}
+
+.bloco2 {
+    padding: 10px;
+}
+
+.bloco3 {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.subtitulo {
+    font: normal 16pt Arial;
+}
+
+fieldset {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+}
+
+.bot {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.p {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.bloco4 {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0.6px;
+    width: 50%;
+    height: 10%;
+    background-color: rgb(236, 236, 236);
+}
+
+#resultado {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+#reset {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%);
+}
+
+footer {
+    position: absolute;
+    top: 90%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}

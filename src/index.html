@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo de Idade</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <br>
+    <header class="titulo"><strong>Verficação de Idade</strong></header>
+    <section class="bloco1">
+        <h3 class="subtitulo"><b>Calcular Idade</b></h3>
+        <div class="bloco2"> 
+            Insira seu ano de nascimento: 
+            <input type="number" value=0 name="data" id="data"><br>
+        </div>
+        <fieldset>
+            <legend>Selecione seu Sexo:</legend>
+            <input type="radio" value="Masculino" name="sexo" id="M" checked>Masculino  
+            <input type="radio" value="Feminino" name="sexo" id="F">Feminino
+        </fieldset>
+        <div class="bloco3">
+            Já fez Aniversário esse ano?
+            <input type="radio" value="Sim" name="aniversario" id="sim" checked>Sim
+            <input type="radio" value="Nao" name="aniversario" id="nao">Não
+        </div>
+        <div class="bot">
+            <input type="button" value="Calcular" id="botao" onclick=clicado()>
+        </div>
+        <p class="p">Resultado</p>
+        <div class="bloco4"><div id="result"></div></div>
+        <input type="button" value="Resetar" name="reset" id="reset" onclick=reset()>
+    </section>
+    <footer><a href="https://github.com/KirinRyu?tab=repositories">@KirinRyu</a></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
