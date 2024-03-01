@@ -12,7 +12,7 @@ function clicado() {
     {
         idade--
     }
-    if(idade<=0)
+    if(idade<=0 || idade > 100)
     {
         res.innerHTML="<strong>[ERRO]<strong> VALOR INVÁLIDO"
         return
